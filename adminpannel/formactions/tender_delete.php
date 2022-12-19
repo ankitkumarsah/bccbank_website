@@ -1,0 +1,34 @@
+<?php
+
+if ($_SERVER["REQUEST_METHOD"] == "GET") {
+
+    include_once '../includes/dbcon.php';
+
+    $sql = "SELECT * FROM tenders WHERE tender_id= :tenderid";
+    $res = $conn->prepare($sql);
+    $res->bindParam(':tenderid', $id1, PDO::PARAM_STR);
+    $id1 = $_GET['id'];
+    $res->execute();
+
+    $row = $res->fetch(PDO::FETCH_ASSOC);
+    $filename = $row['file'];
+    $path = 'uploads/tenders/';
+    $finalpath = $path . $filename;
+    if (file_exists($finalpath)) {
+        unlink($finalpath);
+    } else {
+        echo "<script>alert('Oops! Something Wrong'); location.href='../tenders.php'; </script>";
+    }
+
+    $sql = "DELETE FROM tenders WHERE tender_id= :id";
+    $result = $conn->prepare($sql);
+    $result->bindParam(':id', $id, PDO::PARAM_STR);
+    $id = $_GET['id'];
+    $result->execute();
+    if ($result->rowCount()) {
+        echo "<script>alert('Tender Delete Successfully!'); location.href='../tenders.php'; </script>";
+    } else {
+        echo "<script>alert('Oops! Something Wrong'); location.href='../tenders.php'; </script>";
+    }
+    $conn = null;
+}

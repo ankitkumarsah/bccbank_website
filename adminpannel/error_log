@@ -1,0 +1,4 @@
+[20-Nov-2022 17:17:19 UTC] PHP Warning:  require_once(../includes/header.php): failed to open stream: No such file or directory in /home1/bccbanki/public_html/adminpannel/rate_edit.php on line 2
+[20-Nov-2022 17:17:19 UTC] PHP Fatal error:  require_once(): Failed opening required '../includes/header.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/bccbanki/public_html/adminpannel/rate_edit.php on line 2
+[20-Nov-2022 17:17:41 UTC] PHP Warning:  include_once(../includes/dbcon.php): failed to open stream: No such file or directory in /home1/bccbanki/public_html/adminpannel/rate_edit.php on line 5
+[20-Nov-2022 17:17:41 UTC] PHP Warning:  include_once(): Failed opening '../includes/dbcon.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/bccbanki/public_html/adminpannel/rate_edit.php on line 5

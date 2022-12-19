@@ -1,0 +1,42 @@
+[18-May-2022 12:10:57 UTC] PHP Warning:  unlink(uploads/sliders/): Is a directory in /home1/bccbanki/public_html/adminpannel/formactions/slider_delete.php on line 18
+[18-May-2022 12:11:16 UTC] PHP Warning:  unlink(uploads/gallery/): Is a directory in /home1/bccbanki/public_html/adminpannel/formactions/gallery_delete.php on line 18
+[18-May-2022 12:11:24 UTC] PHP Warning:  unlink(uploads/download1/): Is a directory in /home1/bccbanki/public_html/adminpannel/formactions/download_delete.php on line 18
+[18-May-2022 12:12:04 UTC] PHP Warning:  unlink(uploads/tenders/): Is a directory in /home1/bccbanki/public_html/adminpannel/formactions/tender_delete.php on line 18
+[09-Nov-2022 07:21:07 UTC] PHP Warning:  unlink(uploads/tenders/): Is a directory in /home1/bccbanki/public_html/adminpannel/formactions/tender_delete.php on line 18
+[20-Nov-2022 17:15:57 UTC] PHP Warning:  require_once(includes/header.php): failed to open stream: No such file or directory in /home1/bccbanki/public_html/adminpannel/formactions/rate_edit.php on line 2
+[20-Nov-2022 17:15:57 UTC] PHP Fatal error:  require_once(): Failed opening required 'includes/header.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/bccbanki/public_html/adminpannel/formactions/rate_edit.php on line 2
+[20-Nov-2022 17:37:01 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home1/bccbanki/public_html/adminpannel/formactions/rate_update.php:18
+Stack trace:
+#0 /home1/bccbanki/public_html/adminpannel/formactions/rate_update.php(18): PDOStatement->execute()
+#1 {main}
+  thrown in /home1/bccbanki/public_html/adminpannel/formactions/rate_update.php on line 18
+[20-Nov-2022 17:41:43 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home1/bccbanki/public_html/adminpannel/formactions/rate_update.php:18
+Stack trace:
+#0 /home1/bccbanki/public_html/adminpannel/formactions/rate_update.php(18): PDOStatement->execute()
+#1 {main}
+  thrown in /home1/bccbanki/public_html/adminpannel/formactions/rate_update.php on line 18
+[20-Nov-2022 17:42:23 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home1/bccbanki/public_html/adminpannel/formactions/rate_update.php:18
+Stack trace:
+#0 /home1/bccbanki/public_html/adminpannel/formactions/rate_update.php(18): PDOStatement->execute()
+#1 {main}
+  thrown in /home1/bccbanki/public_html/adminpannel/formactions/rate_update.php on line 18
+[30-Nov-2022 08:55:33 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home1/bccbanki/public_html/adminpannel/formactions/rate_update.php:18
+Stack trace:
+#0 /home1/bccbanki/public_html/adminpannel/formactions/rate_update.php(18): PDOStatement->execute()
+#1 {main}
+  thrown in /home1/bccbanki/public_html/adminpannel/formactions/rate_update.php on line 18
+[30-Nov-2022 08:55:49 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home1/bccbanki/public_html/adminpannel/formactions/rate_update.php:18
+Stack trace:
+#0 /home1/bccbanki/public_html/adminpannel/formactions/rate_update.php(18): PDOStatement->execute()
+#1 {main}
+  thrown in /home1/bccbanki/public_html/adminpannel/formactions/rate_update.php on line 18
+[30-Nov-2022 08:57:33 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home1/bccbanki/public_html/adminpannel/formactions/rate_update.php:18
+Stack trace:
+#0 /home1/bccbanki/public_html/adminpannel/formactions/rate_update.php(18): PDOStatement->execute()
+#1 {main}
+  thrown in /home1/bccbanki/public_html/adminpannel/formactions/rate_update.php on line 18
+[30-Nov-2022 09:22:39 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home1/bccbanki/public_html/adminpannel/formactions/rate_update.php:18
+Stack trace:
+#0 /home1/bccbanki/public_html/adminpannel/formactions/rate_update.php(18): PDOStatement->execute()
+#1 {main}
+  thrown in /home1/bccbanki/public_html/adminpannel/formactions/rate_update.php on line 18
