@@ -159,7 +159,7 @@ $slider->execute();
                         <li><a class="nav-link" href="branchcontact.php">Branches</a></li>
                         <li><a class="nav-link" href="tenders.php"> Tenders</a></li>
                         <li><a class="nav-link" href="rate_of_intrest.php">Interest Rates</a></li>
-                        <li><a class="nav-link" target="_blank" href="https://bccbank.org/">Complaint</a></li>
+                        <!-- <li><a class="nav-link" target="_blank" href="https://bccbank.org/">Complaint</a></li> -->
 <div style="float: left;" id="google_translate_element"></div>
                     </ul>
                 </div>
