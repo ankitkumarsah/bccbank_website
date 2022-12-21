@@ -14,4 +14,4 @@ jobs:
           server: anku@bccbank.in
           username: ftp.bccbank.in
           password: M&dnRQ9@ds}N
-          port: 1234
+          port: 21
