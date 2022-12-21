@@ -21,7 +21,7 @@
 
                         <!-- The slideshow -->
                         <div class="carousel-inner">
-                           
+
 
                             <?php
 $i = 1;
@@ -32,7 +32,7 @@ while ($sliderdata = $slider->fetch(PDO::FETCH_ASSOC)) {
                                     src="adminpannel/formactions/uploads/sliders/<?php echo $sliderdata['image']; ?>" />
                             </div>
                             <?php
-                            $i++;
+$i++;
 }
 
 ?>
@@ -120,8 +120,10 @@ while ($sliderdata = $slider->fetch(PDO::FETCH_ASSOC)) {
                             <span><i class="fa fa-bolt"></i></span>
                         </div>
                         <h3 class="title">POSITIVE PAY</h3>
-                      
-                        <a href="https://www.cedgepps.in/BCCBANK/#/auth/login" style="background:#00CB86; width:170px;height:40px; padding:8px; border-radius:5px;color:#fff;">Click Here</a>
+
+                        <a href="https://www.cedgepps.in/BCCBANK/#/auth/login"
+                            style="background:#00CB86; width:170px;height:40px; padding:8px; border-radius:5px;color:#fff;">Click
+                            Here</a>
                     </div>
                 </div>
 
@@ -133,7 +135,9 @@ while ($sliderdata = $slider->fetch(PDO::FETCH_ASSOC)) {
                         </div>
                         <h3 class="title">ATM/Locker Facility</h3>
                         <p>ATM Card Helpline: <a href="tel:18001236230">1800 123 6230</a></p>
-                        <a href="locker _information.pdf" style="background:#FF415A; width:170px;height:40px; padding:8px; border-radius:5px;color:#fff;">Click Here</a>
+                        <a href="locker _information.pdf"
+                            style="background:#FF415A; width:170px;height:40px; padding:8px; border-radius:5px;color:#fff;">Click
+                            Here</a>
                         <!--<p class="description">Bank Lockers to keep your jewelry & documents safe.</p>-->
                     </div>
                 </div>
@@ -143,10 +147,12 @@ while ($sliderdata = $slider->fetch(PDO::FETCH_ASSOC)) {
                             <span><i class="fa fa-globe"></i></span>
                         </div>
                         <h3 class="title">BBPS (Bill Pay System) </h3>
-                       <a href="https://www.ostaapp.com/user/login" style="background:#00CB86; width:170px;height:40px; padding:8px; border-radius:5px;color:#fff;">Click Here</a>
+                        <a href="https://www.ostaapp.com/user/login"
+                            style="background:#00CB86; width:170px;height:40px; padding:8px; border-radius:5px;color:#fff;">Click
+                            Here</a>
                     </div>
                 </div>
-             
+
 
 
 
@@ -154,8 +160,158 @@ while ($sliderdata = $slider->fetch(PDO::FETCH_ASSOC)) {
             </div>
         </div>
     </div>
-    <!-- End Services -->
+    <!-- Chairman’s Massage Section Start -->
+    <section class="about-section">
+        <div class="container">
+            <div class="row">
+                <div class="content-column col-md-7  order-2">
+                    <div class="inner-column">
+                        <div class="sec-title">
+                            <span class="title">About Css3transition</span>
+                            <h2 style="color: #12557F;">Chairman’s Massage</h2>
+                        </div>
+                        <div class="text">I am Rahul Yaduvanshi works at Css3 Transition since last 3 years. We are here
+                            to provide touch notch solution for your website or web application that helps you to make
+                            your website look attractive & efficient in handling by creating usefull plugins thats you
+                            need.</div>
+                        <div class="text">
+                            We are here to serve you next level tutorial that currently in trend to match you with your
+                            expertise. Css3 transition is a learning website. where you can find many good quality
+                            content related to web development and tutorials about plugins. here we are using html,
+                            html5, css, css3, jquery & javascript along with inspirational UI design layout by
+                            professionals by using Photoshop and adobe allustrator.
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="image-column col-md-5 col-sm-12">
+
+                    <figure class="image-1"><a href="#"><img
+                                src="https://img.freepik.com/free-vector/customer-support-flat-illustration_23-2148892786.jpg?w=900&t=st=1671516254~exp=1671516854~hmac=4904a5eb1de56761f65809858ea142d5d5a8e338d895d47b72f9dccaeb58285a"
+                                alt="" style="height: 400px; border-radius: 10px; width: 100%;"></a></figure>
+
+
+                </div>
+
+            </div>
+
+
+        </div>
+    </section>
+    <!-- Chairman’s Massage Section end -->
+
+
+        <!-- Director Massage Section Start -->
+        <section class="about-section">
+            <div class="container">
+                <div class="row">
+                    <div class="content-column col-md-7 ">
+                        <div class="inner-column">
+                            <div class="sec-title">
+                                
+                                <h2 style="color: #12557F;">Director's Message</h2>
+                                <span class="title">Dear Aspirant,</span>
+                            </div>
+                            <div class="text">I am Rahul Yaduvanshi works at Css3 Transition since last 3 years. We are here
+                                to provide touch notch solution for your website or web application that helps you to make
+                                your website look attractive & efficient in handling by creating usefull plugins thats you
+                                need.</div>
+                            <div class="text">
+                                We are here to serve you next level tutorial that currently in trend to match you with your
+                                expertise. Css3 transition is a learning website. where you can find many good quality
+                                content related to web development and tutorials about plugins. here we are using html,
+                                html5, css, css3, jquery & javascript along with inspirational UI design layout by
+                                professionals by using Photoshop and adobe allustrator.
+                            </div>
+    
+                        </div>
+                    </div>
+    
+                    <div class="image-column col-md-5 col-sm-12">
+    
+                        <figure class="image-1"><a href="#"><img
+                                    src="https://img.freepik.com/free-vector/recruit-agent-analyzing-candidates_74855-4565.jpg?w=996&t=st=1671516749~exp=1671517349~hmac=04fa6eff82e7f8e23515e9f50b2b3ef4ce0d7034d1cb2ea09609e3eec58cbd39"
+                                    alt="" style="height: 400px; border-radius: 10px; width: 100%;"></a></figure>
+    
+    
+                    </div>
+    
+                </div>
+    
+    
+            </div>
+        </section>
+        <!-- Director Massage Section end -->
     <style>
+
+    </style>
+
+    <style>
+        .sec-title .title {
+            position: relative;
+            display: block;
+            font-size: 18px;
+            line-height: 24px;
+            color: #00aeef;
+            font-weight: 500;
+            margin-bottom: 5px;
+        }
+
+        .sec-title h2 {
+            position: relative;
+            display: block;
+            font-size: 30px;
+            line-height: 1.28em;
+            color: #222222;
+            font-weight: 600;
+            padding-bottom: 18px;
+        }
+
+        .sec-title h2:before {
+            position: absolute;
+            content: '';
+            left: 0px;
+            bottom: 0px;
+            width: 50px;
+            height: 3px;
+            background-color: #d1d2d6;
+        }
+
+
+
+        .about-section {
+            position: relative;
+          margin-top: 30px;
+        }
+
+        .about-section .sec-title {
+            margin-bottom: 15px;
+        }
+
+        .about-section .content-column {
+            position: relative;
+            margin-bottom: 50px;
+        }
+
+        .about-section .content-column .inner-column {
+            position: relative;
+            padding-left: 30px;
+        }
+
+        .about-section .text {
+            margin-bottom: 20px;
+            font-size: 16px;
+            line-height: 26px;
+            color: #848484;
+            font-weight: 400;
+            text-align: justify;
+        }
+
+
+
+
+
         .nsec {
             display: flex;
             padding: 24px 40px;
@@ -230,7 +386,7 @@ while ($sliderdata = $slider->fetch(PDO::FETCH_ASSOC)) {
         .tab button.active {
             color: #fff;
             background-color: #12557F;
-           
+
         }
 
         .tabcontent {
@@ -303,7 +459,7 @@ while ($sliderdata = $slider->fetch(PDO::FETCH_ASSOC)) {
                 <div class="col-lg-12">
                     <div class="title-box1">
                         <h3>About Us</h3>
-                      
+
                     </div>
                 </div>
             </div>
@@ -316,19 +472,24 @@ while ($sliderdata = $slider->fetch(PDO::FETCH_ASSOC)) {
 
             <div id="firstTab" class="tabcontent">
                 <h3>Mission</h3>
-                <p>The main object of theBCC Bank is to ensure the economical and social upliftment of the people at large and to promote the tendency of the saving on co-operative base and to reach the facility of loans to the various sections of the society with the mean of co-operative institutions and to ensure to make available the reasonable price of the agricultural products and facilities of storage, seeds, fertilizers, farming equipment’s to the farmers below the market price through PACS.
+                <p>The main object of theBCC Bank is to ensure the economical and social upliftment of the people at
+                    large and to promote the tendency of the saving on co-operative base and to reach the facility of
+                    loans to the various sections of the society with the mean of co-operative institutions and to
+                    ensure to make available the reasonable price of the agricultural products and facilities of
+                    storage, seeds, fertilizers, farming equipment’s to the farmers below the market price through PACS.
 
-To ensure the quality services to the customers as well as farmers for the beneficiaries.</p>
+                    To ensure the quality services to the customers as well as farmers for the beneficiaries.</p>
             </div>
 
             <div id="secondTab" class="tabcontent">
                 <h3>Vision</h3>
-                <p>We have presently 24 branches in Bhopal providing services to the citizens with saving habits and helping hands through various kinds of loans.
+                <p>We have presently 24 branches in Bhopal providing services to the citizens with saving habits and
+                    helping hands through various kinds of loans.
 
-Making administration transparent and people oriented with mean of administrative reforms.
-Pacification in administration with the mean of Information technology
-Making the services available to the grass-root level
-Modernization in administration and providing satisfactory services </p>
+                    Making administration transparent and people oriented with mean of administrative reforms.
+                    Pacification in administration with the mean of Information technology
+                    Making the services available to the grass-root level
+                    Modernization in administration and providing satisfactory services </p>
             </div>
 
             <!--<div id="thirdTab" class="tabcontent">-->
@@ -348,24 +509,26 @@ Modernization in administration and providing satisfactory services </p>
             <!--</div>-->
         </div>
     </div>
-    
+
     <br>
     <br>
- 
-<div class="container">
- <div class="row">
-      <div class="col-md-12">
-    <div class="panel panel-default">
-      <div class="panel-heading"><b style="margin-left:20px;">Important Links</b></div>
-      <div class="panel-body">
-         <p>1.National Cyber Crime Reporting Portal <a href="https://cybercrime.gov.in/">Click Here</a></p> 
-           <p>2.Jan Samarth <a href="https://www.jansamarth.in/home">Click Here</a></p> 
-                        <p>3.Unclaimed Accounts as on 31.10.2022<a href="documents/DEAF-1.pdf" target="_blank"> Click Here</a></p> 
-      </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="panel panel-default">
+                    <div class="panel-heading"><b style="margin-left:20px;">Important Links</b></div>
+                    <div class="panel-body">
+                        <p>1.National Cyber Crime Reporting Portal <a href="https://cybercrime.gov.in/">Click Here</a>
+                        </p>
+                        <p>2.Jan Samarth <a href="https://www.jansamarth.in/home">Click Here</a></p>
+                        <p>3.Unclaimed Accounts as on 31.10.2022<a href="documents/DEAF-1.pdf" target="_blank"> Click
+                                Here</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-</div>
-  </div>
-</div>
 
     <div class="abt">
         <div class="container">
@@ -373,51 +536,56 @@ Modernization in administration and providing satisfactory services </p>
 
             <div class="row">
                 <div class="col-md-5">
-       
-                    
+
+
                     <div class="showcase-02">
                         <h4 class="moduule-title">
                             <span><i class="fa fa-file-text fa-pad"></i></span><span>&nbsp;Tenders</span>
                         </h4>
                         <div class="panel panel-primary">
-                           
+
                             <div class="panel-body">
                                 <div id="UcImpNotice1_UpdatePanel1">
 
-                           
+
 
                                     <div class="home-events">
                                         <ul class="media-list notice-list list-unstyled"
                                             style="margin: 0px; padding: 0px; height: 138px; overflow-y: hidden;">
                                             <li class="media" news-item="">
-                                            
+
                                                 <div class="media-body">
-                                                    <marquee behavior="scroll" direction="up" scrolldelay="200" height="250" onmouseover="this.stop()" onmouseout="this.start()"  >
+                                                    <marquee behavior="scroll" direction="up" scrolldelay="200"
+                                                        height="250" onmouseover="this.stop()"
+                                                        onmouseout="this.start()">
 
-                                                    <ul>
-                                                                           <?php
-                                            
-                                 $tendrs = $tenders->fetchAll(PDO::FETCH_ASSOC);
-                            
+                                                        <ul>
+                                                            <?php
 
-    foreach ($tendrs as $tnd) {
+$tendrs = $tenders->fetchAll(PDO::FETCH_ASSOC);
 
-        ?>
+foreach ($tendrs as $tnd) {
 
-            <li>  <a href="tenders.php" style="text-decoration: none;color:#DF5C06;">  <i class="fa fa-file"></i>   <?php echo $tnd['name']; ?></a></li>
-        
-          
-                                                       <?php
-                                           
+    ?>
+
+                                                            <li> <a href="tenders.php"
+                                                                    style="text-decoration: none;color:#DF5C06;"> <i
+                                                                        class="fa fa-file"></i>
+                                                                    <?php echo $tnd['name']; ?>
+                                                                </a></li>
+
+
+                                                            <?php
+
 }
 
 ?>
-        </ul>
-                                                </marquee>
+                                                        </ul>
+                                                    </marquee>
                                                 </div>
-                                            
+
                                             </li>
-                                      
+
 
 
 
@@ -435,10 +603,10 @@ Modernization in administration and providing satisfactory services </p>
                             <div class="panel-footer">
                                 <a href="tenders.php" class="pull-left"><i class="fa  fa-arrow-circle-right fa-pad ">
                                     </i>View More</a>
-                                 <ul class="pagination pull-right" style="margin: 0px;">
+                                <ul class="pagination pull-right" style="margin: 0px;">
                                     <li><a href="#" class="prev"><span class="fa fa-chevron-down"></span></a></li>
                                     <li><a href="#" class="next"><span class="fa fa-chevron-up"></span></a></li>
-                                </ul> 
+                                </ul>
                                 <div class="clearfix"></div>
                             </div>
                         </div>
@@ -451,7 +619,7 @@ Modernization in administration and providing satisfactory services </p>
                             <span><i class="fa fa-file-text fa-pad"></i></span><span>&nbsp;News & Notices</span>
                         </h4>
                         <div class="panel panel-primary">
-                            
+
                             <div class="panel-body">
                                 <div id="UcImpNotice1_UpdatePanel1">
 
@@ -462,34 +630,38 @@ Modernization in administration and providing satisfactory services </p>
                                         <ul class="media-list notice-list list-unstyled"
                                             style="margin: 0px; padding: 0px; height: 138px; overflow-y: hidden;">
 
-<?php 
+                                            <?php
 $sqli = "SELECT * FROM `notices` ORDER BY `id` DESC";
 $notices = $conn->prepare($sqli);
 $notices->execute();
 ?>
-                      <marquee behavior="scroll" direction="up" scrolldelay="200" height="250" onmouseover="this.stop()" onmouseout="this.start()"  >
+                                            <marquee behavior="scroll" direction="up" scrolldelay="200" height="250"
+                                                onmouseover="this.stop()" onmouseout="this.start()">
 
-                                                    <ul>
-                                                                           <?php
-                                            
-                                 $notices = $notices->fetchAll(PDO::FETCH_ASSOC);
-             
-    foreach ($notices as $notice) {
+                                                <ul>
+                                                    <?php
 
-        ?>
+$notices = $notices->fetchAll(PDO::FETCH_ASSOC);
 
-            <li>  <a href="notices.php" style="text-decoration: none">  <i class="fa fa-file"></i>   <?php echo $notice['name']; ?></a></li>
-        
-          
-                                                       <?php
-                                           
+foreach ($notices as $notice) {
+
+    ?>
+
+                                                    <li> <a href="notices.php" style="text-decoration: none"> <i
+                                                                class="fa fa-file"></i>
+                                                            <?php echo $notice['name']; ?>
+                                                        </a></li>
+
+
+                                                    <?php
+
 }
 
 ?>
-        </ul>
-                                                </marquee>
-                                      
-                                        
+                                                </ul>
+                                            </marquee>
+
+
 
 
                                         </ul>
@@ -505,10 +677,10 @@ $notices->execute();
                             <div class="panel-footer">
                                 <a href="notices.php" class="pull-left"><i class="fa  fa-arrow-circle-right fa-pad ">
                                     </i>View More</a>
-                                 <ul class="pagination pull-right" style="margin: 0px;">
+                                <ul class="pagination pull-right" style="margin: 0px;">
                                     <li><a href="#" class="prev"><span class="fa fa-chevron-down"></span></a></li>
                                     <li><a href="#" class="next"><span class="fa fa-chevron-up"></span></a></li>
-                                </ul> 
+                                </ul>
                                 <div class="clearfix"></div>
                             </div>
                         </div>
@@ -532,10 +704,12 @@ $notices->execute();
                         </h4>
                         <div class="btn-group-vertical">
                             <a href="https://rbi.org.in" class="btn btn-primary btn-block">Reserve Bank of India</a>
-                        <a href="https://www.nabard.org/" class="btn btn-danger btn-block">Nabard</a>
-                        <a href="http://cooperatives.mp.gov.in/" class="btn btn-success btn-block">M P State Cooperative Department</a>
-                        <a href="https://www.npci.org.in/" class="btn btn-warning btn-block">National Payment Corporation of India </a>
-                       
+                            <a href="https://www.nabard.org/" class="btn btn-danger btn-block">Nabard</a>
+                            <a href="http://cooperatives.mp.gov.in/" class="btn btn-success btn-block">M P State
+                                Cooperative Department</a>
+                            <a href="https://www.npci.org.in/" class="btn btn-warning btn-block">National Payment
+                                Corporation of India </a>
+
 
                         </div>
                     </div>

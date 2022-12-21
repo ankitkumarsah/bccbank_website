@@ -13,11 +13,11 @@
   </div>
   <!-- container-scroller -->
 
-  <!-- <script src="vendors/base/vendor.bundle.base.js"></script> -->
+
  
-  <script src="js/off-canvas.js"></script>
-  <script src="js/hoverable-collapse.js"></script>
-  <script src="js/template.js"></script>
+  <script src="http://bccbank.in/adminpannel/js/off-canvas.js"></script>
+  <script src="http://bccbank.in/adminpannel/js/hoverable-collapse.js"></script>
+  <script src="http://bccbank.in/adminpannel/js/template.js"></script>
 
 
   <script>

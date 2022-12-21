@@ -1,5 +1,5 @@
 <?php
-$dsn = "mysql:host=localhost; dbname=bccbanki_maindatabase";
+$dsn = "mysql:host=135.125.180.139; dbname=bccbanki_maindatabase";
 $db_user = "bccbanki_aksah3727";
 $db_password = "Anku@123sah";
 try {
@@ -10,5 +10,7 @@ try {
 catch(PDOException $e) {
  echo "Connection Failed " . $e->getMessage();
 }
-//3LRgRuD!eV.p
+//$websiteUrl = "https://bccbank.in/adminpannel/"
+$websiteUrl = "http://localhost/bccbank/adminpannel/"
+//4([]@HhY}P{I
 ?>

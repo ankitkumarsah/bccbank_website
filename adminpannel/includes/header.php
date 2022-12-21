@@ -17,16 +17,18 @@ if(!$_SESSION['email']){
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>Admin</title>
-  <link rel="stylesheet" href="vendors/mdi/css/materialdesignicons.min.css">
+  <!-- <link rel="stylesheet" href="vendors/mdi/css/materialdesignicons.min.css">
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="vendors/base/vendor.bundle.base.css">
-  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">  
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> -->
-  <!-- <link rel="stylesheet" href="https://cdn.datatables.net/1.11.3/css/dataTables.bootstrap.min.css"> -->
+  <link rel="stylesheet" href="vendors/base/vendor.bundle.base.css"> -->
+
+  <link rel="stylesheet" href="<?php echo $websiteUrl; ?>vendors/mdi/css/materialdesignicons.min.css">
+
+  <link rel="stylesheet" href="<?php echo $websiteUrl; ?>css/style.css">
+  <link rel="stylesheet" href="<?php echo $websiteUrl; ?>vendors/base/vendor.bundle.base.css">
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdn.datatables.net/1.11.3/js/jquery.dataTables.min.js"></script>
-  <!-- <script src="https://cdn.datatables.net/1.11.3/js/dataTables.bootstrap.min.js"></script> -->
+
 
   <style>
     /* .navbar-menu-wrapper{
@@ -123,11 +125,11 @@ if(!$_SESSION['email']){
       display: block;
     }
 
-    input,select,textarea{
-       border:1px solid #2768FF !important;
+    input,
+    select,
+    textarea {
+      border: 1px solid #2768FF !important;
     }
-
-    
   </style>
 </head>
 
@@ -136,10 +138,10 @@ if(!$_SESSION['email']){
     <nav class="navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
       <div class="navbar-brand-wrapper d-flex justify-content-center">
         <div class="navbar-brand-inner-wrapper d-flex justify-content-between align-items-center w-100">
-          <a class="navbar-brand brand-logo" href="dashboard.php">
-            <img src="assets/images/logo.jpg" alt="logo" />
+          <a class="navbar-brand brand-logo" href="<?php echo $websiteUrl; ?>dashboard.php">
+            <img src="<?php echo $websiteUrl; ?>assets/images/logo.jpg" alt="logo" />
           </a>
-          <a class="navbar-brand brand-logo-mini" href="dashboard.php">
+          <a class="navbar-brand brand-logo-mini" href="<?php echo $websiteUrl; ?>dashboard.php">
             BCCBANK
             <!-- <img src="../../assets/img/logo.jpg" alt="logo"/> -->
           </a>
@@ -152,30 +154,30 @@ if(!$_SESSION['email']){
 
         <ul class="navbar-nav navbar-nav-right">
           <li class="nav-item nav-profile dropdown">
-            <a class="nav-link" href="includes/logout.php"  id="profileDropdown">
-             <span class="nav-profile-name">   <i class="mdi mdi-logout"></i>Logout</span>
+            <a class="nav-link" href="includes/logout.php" id="profileDropdown">
+              <span class="nav-profile-name"> <i class="mdi mdi-logout"></i>Logout</span>
             </a>
           </li>
         </ul>
-       
+
       </div>
     </nav>
     <div class="container-fluid page-body-wrapper">
       <nav class="sidebar sidebar-offcanvas" id="sidebar">
         <ul class="nav">
           <li class="nav-item">
-            <a class="nav-link" href="dashboard.php">
+            <a class="nav-link" href="<?php echo $websiteUrl; ?>dashboard.php">
               <i class="mdi mdi-home menu-icon"></i>
               <span class="menu-title">Dashboard</span>
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" data-toggle="collapse" href="./sliders.php" >
+            <a class="nav-link" data-toggle="collapse" href="./sliders.php">
               <i class="mdi mdi-circle-outline menu-icon"></i>
               <span class="menu-title">Sliders</span>
-          
+
             </a>
-         
+
           </li>
 
           <li class="nav-item">
@@ -215,12 +217,26 @@ if(!$_SESSION['email']){
             </a>
           </li>
 
-          
+
 
           <li class="nav-item">
             <a class="nav-link" href="./branches.php">
               <i class="mdi mdi-television menu-icon"></i>
               <span class="menu-title">Branches</span>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="<?php echo $websiteUrl; ?>pages/ceo/add_ceo_msg.php">
+              <i class="mdi mdi-television menu-icon"></i>
+              <span class="menu-title">Add Ceo Message</span>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="<?php echo $websiteUrl; ?>pages/chairman/add_chairman_msg.php">
+              <i class="mdi mdi-television menu-icon"></i>
+              <span class="menu-title">Add Chairman Message</span>
             </a>
           </li>
         </ul>
