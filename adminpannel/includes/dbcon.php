@@ -12,5 +12,5 @@ catch(PDOException $e) {
 }
 //$websiteUrl = "https://bccbank.in/adminpannel/"
 $websiteUrl = "http://localhost/bccbank/adminpannel/"
-//4([]@HhY}P{I
+//M&dnRQ9@ds}N
 ?>
